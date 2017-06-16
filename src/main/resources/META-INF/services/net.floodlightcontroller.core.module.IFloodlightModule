@@ -31,3 +31,5 @@ net.floodlightcontroller.routing.RoutingManager
 net.floodlightcontroller.cpanalyzer.CPAnalyzer
 net.floodlightcontroller.mactracker.MACTracker
 net.floodlightcontroller.core.module.IFloodlightModule
+net.floodlightcontroller.pktinhistory.PktInHistory
+net.floodlightcontroller.headerextract.HeaderExtract
