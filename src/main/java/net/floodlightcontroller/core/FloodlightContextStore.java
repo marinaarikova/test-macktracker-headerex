@@ -17,11 +17,13 @@
 
 package net.floodlightcontroller.core;
 
+import java.util.concurrent.TimeUnit;
+
 public class FloodlightContextStore<V> {
     
     @SuppressWarnings("unchecked")
-    public V get(FloodlightContext bc, String key) {
-        return (V)bc.storage.get(key);
+    public V get(FloodlightContext cntx, String contextPiPayload) {
+        return (V)cntx.storage.get(contextPiPayload);
     }
     
     public void put(FloodlightContext bc, String key, V value) {
